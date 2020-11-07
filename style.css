@@ -1,0 +1,42 @@
+.body{
+	padding: 2vw;
+	background-color: black;
+}
+
+.label{
+	position: static;
+left: 0px;
+top: 0px;
+
+/* Label/web */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vw;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+.txt{
+display: block;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 7vw;
+line-height: 110%;
+/* identical to box height, or 121px */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.section{
+	margin-bottom: 2vw;
+}

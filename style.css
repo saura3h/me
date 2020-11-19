@@ -1,42 +1,145 @@
 .body{
-	padding: 2vw;
-	background-color: black;
+	padding: 128px;
+	background: #000000;
+;
+	/*text-align: center;*/
 }
 
 .label{
-	position: static;
-left: 0px;
-top: 0px;
-
-/* Label/web */
-
-font-family: Inter;
+	display: block;
+font-family: Manrope;
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-text-transform: uppercase;
-margin-bottom: 32px;
-color: #FFFFFF;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
 
-opacity: 0.7;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #F5F1EE;
+
+opacity: 0.5;
+
+
+margin-bottom: 32px;
+}
+
+.txtt{
+position: static;
+display: block;
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* or 77px */
+
+
+color: #F5F1EE;
 }
 
 .txt{
+position: static;
 display: block;
-font-family: Inter;
+font-family: Manrope;
 font-style: normal;
-font-weight: normal;
-font-size: 8vw;
-line-height: 110%;
-/* identical to box height, or 121px */
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* or 77px */
+text-decoration: none;
 
-letter-spacing: -0.04em;
-text-transform: uppercase;
+color: #F5F1EE;
+}
 
-color: #FFFFFF;
+
+.txt:hover{
+	color: #5E79F2;
+
 }
 
 .section{
-	margin-bottom: 32px;
+	margin-bottom: 128px;
 }
+
+.image{
+	height: 18px;
+}
+
+@media screen and (max-width: 1005px) {
+	.body{
+	padding: 64px;
+	}
+
+	.label{
+	margin-bottom: 28px;
+	}
+
+	.txtt{
+		width: 799px;
+		font-size: 56px;
+	}
+
+	.txt{
+		font-size: 56px;
+	}
+
+	.section{
+		margin-bottom: 96px;
+	}
+
+}
+
+@media screen and (max-width: 844px) {
+ 	.body{
+	padding: 32px;
+	}
+
+	.label{
+	margin-bottom: 16px;
+	}
+
+	.txtt{
+		width: 639px;
+		font-size: 36px;
+	}
+
+	.txt{
+		font-size: 36px;
+	}
+
+	.section{
+		margin-bottom: 64px;
+	}
+
+	.image{
+	height: 14px;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+  	.body{
+	padding: 16px;
+	}
+
+	.label{
+		font-size: 14px;
+	margin-bottom: 16px;
+	}
+
+	.txtt{
+		width: 328px;
+		font-size: 24px;
+	}
+
+	.txt{
+		font-size: 24px;
+	}
+
+	.section{
+		margin-bottom: 64px;
+	}
+}
+

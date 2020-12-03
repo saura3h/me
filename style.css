@@ -17,12 +17,16 @@ line-height: 22px;
 letter-spacing: 0.07em;
 text-transform: uppercase;
 
-color: #F5F1EE;
-
-opacity: 0.5;
-
+color: #808080;
 
 margin-bottom: 32px;
+}
+
+.divider{
+	display: block;
+	height: 2px;
+	background: #808080;
+	opacity: 0.3;
 }
 
 .txtt{
@@ -46,7 +50,7 @@ font-family: Manrope;
 font-style: normal;
 font-weight: 500;
 font-size: 64px;
-line-height: 120%;
+line-height: 130%;
 /* or 77px */
 text-decoration: none;
 
